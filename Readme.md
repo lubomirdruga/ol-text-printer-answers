@@ -1,4 +1,4 @@
-# OpenLab text printer 📅
+# OpenLab text printer 🖥
 
 Simple web page to show some text using page query params, on
 the [OpenLab projectors or screens.](https://git.kpi.fei.tuke.sk/open-lab/info/-/wikis/MQTT/Screens)
