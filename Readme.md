@@ -10,5 +10,5 @@ the [OpenLab projectors or screens.](https://git.kpi.fei.tuke.sk/open-lab/info/-
 
 
 
-Live page is on [this link.](https://later.com/)
+Live page is on [this link.](http://lubomir.druga.pages.kpi.fei.tuke.sk/openlab-text-printer/?h1=Hello&h2=World)
 --
