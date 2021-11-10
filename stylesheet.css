@@ -16,11 +16,11 @@ div {
 
 #main-text {
     /*height: 80%;*/
-    font-size: 1rem;
+    font-size: 10px;
 }
 
 #additional-text {
-    font-size: 1rem;
+    font-size: 10px;
 }
 
 html, body {
@@ -30,10 +30,10 @@ html, body {
 @media only screen and (min-height: 1000px) {
     #main-text {
         /*height: 80%;*/
-        font-size: 1rem;
+        font-size: 10px;
     }
 
     #additional-text {
-        font-size: 1em;
+        font-size: 10px;
     }
 }
