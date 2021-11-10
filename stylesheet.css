@@ -30,10 +30,10 @@ html, body {
 @media only screen and (min-height: 1000px) {
     #main-text {
         /*height: 80%;*/
-        font-size: 7rem;
+        font-size: 1rem;
     }
 
     #additional-text {
-        font-size: 3em;
+        font-size: 1em;
     }
 }
