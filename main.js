@@ -1,14 +1,20 @@
 function mainText(text) {
 
-    const answers = text.split(';');
+    let innerHtml = `<div style="font-size: 6rem">`;
+    if (text) {
+        const answers = text.split(';');
 
-    let innerHtml = '';
-    let idx = 1;
-    for (let a of answers) {
-        innerHtml += `<div class="main-text">${idx}. ${a}</div>`
-        idx++;
+        innerHtml += `Možné odpovede:</div><div id="container">`;
+        let idx = 1;
+        for (let a of answers) {
+            innerHtml += `<div class="main-text">${idx}. ${a}</div>`
+            idx++;
+        }
+        innerHtml += `</div>`;
+    } else {
+        innerHtml += `Pri tejto hádanke nie sú ponúkané možnosti.</div>`;
     }
-    const element = document.getElementById("container");
+    const element = document.getElementById("outer");
     element.innerHTML = innerHtml;
 }
 
