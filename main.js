@@ -1,12 +1,20 @@
 function mainText(text) {
-    const element = document.getElementById("main-text");
-    element.innerText = `${text}`;
-    console.log(text);
+
+    const answers = text.split(';');
+
+    let innerHtml = '';
+    let idx = 1;
+    for (let a of answers) {
+        innerHtml += `<div class="main-text">${idx}. ${a}</div>`
+        idx++;
+    }
+    const element = document.getElementById("container");
+    element.innerHTML = innerHtml;
 }
 
 function init() {
     const urlSearchParams = new URLSearchParams(window.location.search);
-    mainText(urlSearchParams.get('h1'));
+    mainText(urlSearchParams.get('answers'));
 }
 
 init();

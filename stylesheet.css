@@ -14,12 +14,13 @@ div {
     font-family: 'Roboto', sans-serif;
 }
 
-#main-text {
-    font-size: 6rem;
+.main-text {
+    font-size: 5rem;
 }
 
 .outer {
     width:100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
